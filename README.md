@@ -1,4 +1,4 @@
-# Home SOC Lab with Wazuh
+# Wazuh SOC Lab: Windows and Linux Threat Detection
 
 > Hands-on SOC lab built as part of the MyDFIR Wazuh SOC Analyst Challenge.
 > Goal: deploy a SIEM/XDR, collect endpoint telemetry, detect attacker activity, and investigate an incident end to end.
