@@ -1,0 +1,4 @@
+<!-- /var/ossec/etc/ossec.conf on ubuntu (changed parts only) -->
+
+<!-- Section 6.1: inside <syscheck> -->
+<directories realtime="yes">/opt/company-data</directories>

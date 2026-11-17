@@ -1,0 +1,7 @@
+# /etc/filebeat/filebeat.yml (Wazuh module, changed part only)
+filebeat.modules:
+  - module: wazuh
+    alerts:
+      enabled: true
+    archives:
+      enabled: true

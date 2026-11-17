@@ -1,0 +1,15 @@
+<!-- /var/ossec/etc/ossec.conf on the Wazuh server (changed parts only) -->
+
+<!-- Section 2: archive all events -->
+<global>
+  <logall>yes</logall>
+  <logall_json>yes</logall_json>
+</global>
+
+<!-- Section 7.2: block the source IP when rule 100101 fires -->
+<active-response>
+  <disabled>no</disabled>
+  <command>firewall-drop</command>
+  <location>local</location>
+  <rules_id>100101</rules_id>
+</active-response>

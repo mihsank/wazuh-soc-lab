@@ -1,0 +1,10 @@
+<!-- C:\Program Files (x86)\ossec-agent\ossec.conf (changed parts only) -->
+
+<!-- Section 3: forward Sysmon events -->
+<localfile>
+  <location>Microsoft-Windows-Sysmon/Operational</location>
+  <log_format>eventchannel</log_format>
+</localfile>
+
+<!-- Section 6.1: inside <syscheck> -->
+<directories realtime="yes">C:\CompanyData</directories>
